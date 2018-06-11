@@ -6,7 +6,7 @@ body {
 
 #toolbar {
   height: 64px;
-  background: #eee;
+  background: #0168ab;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,10 +14,13 @@ body {
 }
 
 .toolbar__link {
+  color: white;
   text-decoration: none;
 }
 
-.toolbar__link:hover {}
+.toolbar__link:hover {
+  text-decoration: underline;
+}
 
 .cards .card {
   margin-bottom: 40px;
@@ -27,9 +30,6 @@ body {
   .cards {
     max-width: 920px;
     margin: 40px auto;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 0;
   }
   .cards .card {
     margin: 0 auto 40px;
@@ -45,10 +45,6 @@ body {
   position: relative;
   padding: 24px;
   border-radius: 2px;
-  margin: 30px auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: top;
 }
 
 .card:hover {
@@ -61,12 +57,12 @@ body {
   margin: 0;
   font-size: 24px;
   font-weight: normal;
-  color: #ccc;
+  color: #337ab7;
 }
 
 .card__subtitle {
   text-transform: uppercase;
-  color: #ccc;
+  color: #666;
   font-size: 14px;
   margin: 0 0 20px;
   font-weight: normal;
@@ -74,7 +70,7 @@ body {
 
 .card__link {
   font-size: 14px;
-  color: #ccc;
+  color: #337ab7;
   text-decoration: none;
   margin-bottom: 8px;
   display: block;
@@ -96,7 +92,7 @@ body {
 }
 
 .card__itmLabel {
-  color: #999;
+  color: #666;
 }
 
 .card__itmLabel:after {
@@ -105,7 +101,7 @@ body {
 }
 
 .card__itemValue {
-  color: #999;
+  color: #337ab7;
   text-decoration: none;
 }
 
@@ -114,14 +110,11 @@ body {
   height: 128px;
   border-radius: 50%;
   display: block;
-  filter: grayscale(8);
 }
 
 .floatBtn {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background: #eee;
+  color: white;
+  background: #ff4081;
   border-radius: 50%;
   width: 56px;
   height: 56px;

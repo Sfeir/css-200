@@ -1,3 +1,9 @@
+/*
+  tips 
+  blue: #0168ab
+  pink: #ff4081
+*/
+
 body {
   margin: 0;
   font-size: 16px;
@@ -6,7 +12,7 @@ body {
 
 #toolbar {
   height: 64px;
-  background: #0168ab;
+  background: XXXXXX;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,6 +58,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: top;
+}
+
+.card:hover {
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
 }
 
 .card__left {}
@@ -117,10 +127,10 @@ body {
 
 .floatBtn {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: XXXXXX;
+  right: XXXXXXX;
   color: white;
-  background: #ff4081;
+  background: XXXXXXX;
   border-radius: 50%;
   width: 56px;
   height: 56px;
