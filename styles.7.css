@@ -23,7 +23,7 @@ body {
 }
 
 .toolbar__link:last-child::after {
-  content: " - exo1";
+  content: " - exo7";
 }
 
 .toolbar__link:hover {
