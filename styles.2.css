@@ -25,6 +25,10 @@ XXXXXXXX {
   color: white;
 }
 
+.toolbar__link:last-child::after {
+  content: " - exo2";
+}
+
 /* Soulignement au passage du curseur */
 
 XXXXXXXX {

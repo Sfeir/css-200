@@ -18,6 +18,10 @@ body {
   text-decoration: none;
 }
 
+.toolbar__link:last-child::after {
+  content: " - exo6";
+}
+
 .toolbar__link:hover {
   text-decoration: underline;
 }

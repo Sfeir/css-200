@@ -18,6 +18,10 @@ body {
   text-decoration: none;
 }
 
+.toolbar__link:last-child::after {
+  content: " - exo3";
+}
+
 .toolbar__link:hover {
   text-decoration: underline;
 }
@@ -83,13 +87,9 @@ body {
 }
 
 .card__items {
-  padding: 0;
-  margin: 30px 0 0;
   list-style: none;
   font-size: 14px;
 }
-
-.card__item {}
 
 .card__itmLabel {
   color: #666;
@@ -123,4 +123,10 @@ body {
   height: 56px;
   outline: none;
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+}
+
+* {
+  /* DO NOT REMOVE :) */
+  margin: 0;
+  /* DO NOT REMOVE :) */
 }
