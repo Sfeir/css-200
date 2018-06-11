@@ -4,7 +4,7 @@ body {
   font-family: 'arial';
 }
 
-.toolbar {
+#toolbar {
   height: 64px;
   background: #0168ab;
   display: flex;
