@@ -21,7 +21,9 @@ body {
   content: " - exo4";
 }
 
-.toolbar__link:hover {}
+.toolbar__link:hover {
+  text-decoration: underline;
+}
 
 .cards .card {
   margin-bottom: 40px;
