@@ -1,5 +1,9 @@
 /*
-  TRANSITION
+  VARS
+
+  tips 
+  blue: #0168ab
+  pink: #ff4081
 */
 
 body {
@@ -10,7 +14,7 @@ body {
 
 #toolbar {
   height: 64px;
-  background: #0168ab;
+  background: XXXXXX;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +27,7 @@ body {
 }
 
 .toolbar__link:last-child::after {
-  content: " - exo1";
+  content: " - exo7";
 }
 
 .toolbar__link:hover {
@@ -62,12 +66,11 @@ body {
   align-items: top;
 }
 
+.card:hover {
+  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
 
-/*
-
-  VOTRE REPONSE ICI
-
-*/
+.card__left {}
 
 .card__title {
   margin: 0;
@@ -130,10 +133,10 @@ body {
 
 .floatBtn {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: XXXXXX;
+  right: XXXXXXX;
   color: white;
-  background: #ff4081;
+  background: XXXXXXX;
   border-radius: 50%;
   width: 56px;
   height: 56px;

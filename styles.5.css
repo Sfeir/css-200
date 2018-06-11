@@ -1,3 +1,7 @@
+/*
+  DISPLAY & POSITION
+*/
+
 body {
   margin: 0;
   font-size: 16px;
@@ -26,18 +30,13 @@ body {
   text-decoration: underline;
 }
 
-.cards .card {
-  margin-bottom: 40px;
+.cards {
+  max-width: 920px;
+  margin: 40px auto;
 }
 
-@media(min-width: 640px) {
-  .cards {
-    max-width: 920px;
-    margin: 40px auto;
-  }
-  .cards .card {
-    margin: 0 auto 40px;
-  }
+.cards .card {
+  margin: 0 auto 40px;
 }
 
 .card {
@@ -50,12 +49,6 @@ body {
   padding: 24px;
   border-radius: 2px;
 }
-
-.card:hover {
-  box-shadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
-}
-
-.card__left {}
 
 .card__title {
   margin: 0;
