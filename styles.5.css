@@ -6,7 +6,7 @@ body {
 
 .toolbar {
   height: 64px;
-  background: #0168ab;
+  background: #eee;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +14,6 @@ body {
 }
 
 .toolbar__link {
-  color: white;
   text-decoration: none;
 }
 
@@ -62,12 +61,12 @@ body {
   margin: 0;
   font-size: 24px;
   font-weight: normal;
-  color: #337ab7;
+  color: #ccc;
 }
 
 .card__subtitle {
   text-transform: uppercase;
-  color: #666;
+  color: #ccc;
   font-size: 14px;
   margin: 0 0 20px;
   font-weight: normal;
@@ -75,7 +74,7 @@ body {
 
 .card__link {
   font-size: 14px;
-  color: #337ab7;
+  color: #ccc;
   text-decoration: none;
   margin-bottom: 8px;
   display: block;
@@ -97,7 +96,7 @@ body {
 }
 
 .card__itmLabel {
-  color: #666;
+  color: #999;
 }
 
 .card__itmLabel:after {
@@ -106,7 +105,7 @@ body {
 }
 
 .card__itemValue {
-  color: #337ab7;
+  color: #999;
   text-decoration: none;
 }
 
@@ -115,14 +114,14 @@ body {
   height: 128px;
   border-radius: 50%;
   display: block;
+  filter: grayscale(8);
 }
 
 .floatBtn {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  color: white;
-  background: #ff4081;
+  background: #eee;
   border-radius: 50%;
   width: 56px;
   height: 56px;
