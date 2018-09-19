@@ -29,21 +29,15 @@ body {
   text-decoration: underline;
 }
 
-.cards .card {
-  margin-bottom: 40px;
+.cards {
+  max-width: 920px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 0;
 }
-
-@media(min-width: 640px) {
-  .cards {
-    max-width: 920px;
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column-gap: 0;
-  }
-  .cards .card {
-    margin: 0 auto 40px;
-  }
+.cards .card {
+  margin: 0 auto 40px;
 }
 
 .card {
