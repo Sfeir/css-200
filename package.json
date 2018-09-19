@@ -5,7 +5,7 @@
   "repository": "https://github.com/Sfeir/css-200",
   "author": "Fabien Zibi <fabien.zibi@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "ws": "^6.0.0"
   },
   "scripts": {
