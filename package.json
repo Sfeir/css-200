@@ -1,0 +1,14 @@
+{
+  "name": "css-200",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/Sfeir/css-200",
+  "author": "Fabien Zibi <fabien.zibi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^6.0.0"
+  },
+  "scripts": {
+    "start": "ws"
+  }
+}
